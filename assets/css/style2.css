@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+    .hover:hover {
+      color: rgb(21, 122, 16) !important;
+      cursor: pointer;
+      transition: 0.4s;
+    }
+
+    .color1 {
+      background-color:
+        #fdfdfd;
+    }
+
+    #cl {
+      color: black !important;
+    }
+
+    .sign-btn {
+      background-color: #6e6c3c;
+      transition: 0.5s;
+      cursor: pointer;
+      width: 100%;
+
+    }
+
+    .sign-btn:hover {
+      background-color: black;
+      color: white;
+    }
+
+    .colorgree {
+      background-color: #6e6c3c;
+      transition: 0.5s;
+      cursor: pointer;
+    }
+
+    .b-img {
+      background-image: url(../media/images/5.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      object-fit: cover;
+    }
+
+    .btn11 {
+      background-color: #6e6c3c;
+      transition: 0.5s;
+      cursor: pointer;
+    }
+
+    .btn11:hover {
+      background-color: black;
+      color: white;
+    }
+
+    .input11 {
+      border: none;
+      outline: none;
+    }
+
+    .colork {
+      color: #6e6c3c;
+    }
+
+    #hero1 {
+      background: url(../media/images/shoose22.jpg);
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+    }
+   
+
+    .hero,
+    .content {
+      text-align: center;
+      position: relative;
+      width: 100%;
+
+    }
+
+    .inner {
+      min-height: 600px;
+      position: relative;
+    }
+
+    .cros {
+      transform: rotate(45deg);
+    }
+
+    .hight {
+      height: 80px;
+    }
+  
+
+.show {
+  width: 400px;
+  height: 400px;
+}
+@media screen and (max-width:400px) {
+  .show {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media screen and (max-width:380px) {
+ 
+.small-img {
+  width: 300px;
+  height: 70px;
+  
+}
+}
+
+.small-img {
+  width: 300px;
+  height: 70px;
+  margin-top: 10px;
+  position: relative;
+ 
+}
+
+.small-img .icon-left, .small-img .icon-right {
+  width: 12px;
+  height: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+
+.small-img .icon-left { transform: rotate(180deg) }
+
+.small-img .icon-right { right: 0; }
+
+.small-img .icon-left:hover, .small-img .icon-right:hover { opacity: .5; }
+
+.small-container {
+  width: 270px;
+  height: 70px;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+ 
+}
+
+.small-container div {
+  width: 400px;
+  position: relative;
+}
+
+.small-container .show-small-img {
+  width: 60px;
+  height: 60px;
+  margin: 2px;
+  cursor: pointer;
+  float: left;
+}
+
+.small-container .show-small-img:last-of-type { margin-right: 0; }
+
